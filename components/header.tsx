@@ -37,7 +37,7 @@ export default function Header() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      fill="hsla(--var(background))"
+      fill="hsla(var(--background))"
       className="w-8 h-8"
     >
       <g id="Environment / Sun">
@@ -84,7 +84,7 @@ export default function Header() {
 
       <div className="items-center hidden gap-8 sm:flex">
         <a 
-          href="https://github.com/split-sec/next-dashboard.git"
+          href="https://github.com/split-sec/dashboard"
           target="blank"
         >
           <svg
